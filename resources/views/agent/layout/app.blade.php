@@ -22,7 +22,7 @@
 
     {{-- Notification --}}
     <script src="{{ asset('js/notyf.js') }}"></script>
-    @livewireScripts
+
 
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     {{-- Main Script --}}
@@ -110,6 +110,7 @@
             notyf.error(msg);
         });
     </script>
+    @livewireScripts
 </body>
 
 </html>
