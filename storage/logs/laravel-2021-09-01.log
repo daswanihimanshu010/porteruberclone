@@ -1,0 +1,150 @@
+[2021-09-01 16:08:06] local.ALERT: 010  
+[2021-09-01 16:08:06] local.ALERT: here  
+[2021-09-01 16:08:14] local.ALERT: 010  
+[2021-09-01 16:08:14] local.ALERT: here  
+[2021-09-01 16:08:28] local.ALERT: 26.883285926.88965931 cache created Location  
+[2021-09-01 16:08:28] local.ALERT: 26.883294826.88965931 cache created Location  
+[2021-09-01 16:08:56] local.ALERT: 26.883292926.88965931 cache created Location  
+[2021-09-01 16:08:58] local.ALERT: 26.883294826.88965931 cache created Location  
+[2021-09-01 16:09:13] local.ALERT: 26.883294826.88965931 cache created Location  
+[2021-09-01 16:12:50] local.ALERT: 010  
+[2021-09-01 16:12:50] local.ALERT: array (
+  'price' => 102.0,
+  'base_price' => 100.0,
+  'distance_fare' => 0.0,
+  'minute_fare' => 0,
+  'hour_fare' => 0.0,
+  'calculator' => 'DISTANCEMIN',
+  'rental_hours' => 
+  array (
+  ),
+  'minutes' => '2',
+  'leave' => 0,
+  'return' => 0,
+  'day' => 0,
+  'service_type' => 
+  App\Models\ServiceType::__set_state(array(
+     'guarded' => 
+    array (
+    ),
+     'translatable' => 
+    array (
+      0 => 'name',
+      1 => 'description',
+    ),
+     'connection' => 'mysql',
+     'table' => 'service_types',
+     'primaryKey' => 'id',
+     'keyType' => 'int',
+     'incrementing' => true,
+     'with' => 
+    array (
+    ),
+     'withCount' => 
+    array (
+    ),
+     'preventsLazyLoading' => false,
+     'perPage' => 15,
+     'exists' => true,
+     'wasRecentlyCreated' => false,
+     'attributes' => 
+    array (
+      'id' => 1,
+      'name' => '{"en":"Sedan","hi":"Sedan"}',
+      'image' => 'public/service/image/GGPpN9P5mj2YNI0nGAnFxzm6jGavjqorRWGKphVe.webp',
+      'capacity' => 3,
+      'fixed' => 100.0,
+      'price' => 10.0,
+      'minute' => 0.0,
+      'outstation_km' => 0,
+      'rental_fare' => NULL,
+      'night_fare' => 0,
+      'roundtrip_km' => 0,
+      'rental_hour_price' => 0.0,
+      'rental_km_price' => 0.0,
+      'outstation_driver' => 0,
+      'hour' => NULL,
+      'distance' => 1,
+      'calculator' => 'DISTANCEMIN',
+      'description' => '{"en":"sedan comfort","hi":"sedan comfort"}',
+      'waiting_free_mins' => 10,
+      'waiting_min_charge' => 5.0,
+      'deleted_at' => NULL,
+      'status' => 1,
+      'created_at' => '2021-08-12 00:26:21',
+      'updated_at' => '2021-08-24 23:51:00',
+      'marker' => NULL,
+    ),
+     'original' => 
+    array (
+      'id' => 1,
+      'name' => '{"en":"Sedan","hi":"Sedan"}',
+      'image' => 'public/service/image/GGPpN9P5mj2YNI0nGAnFxzm6jGavjqorRWGKphVe.webp',
+      'capacity' => 3,
+      'fixed' => 100.0,
+      'price' => 10.0,
+      'minute' => 0.0,
+      'outstation_km' => 0,
+      'rental_fare' => NULL,
+      'night_fare' => 0,
+      'roundtrip_km' => 0,
+      'rental_hour_price' => 0.0,
+      'rental_km_price' => 0.0,
+      'outstation_driver' => 0,
+      'hour' => NULL,
+      'distance' => 1,
+      'calculator' => 'DISTANCEMIN',
+      'description' => '{"en":"sedan comfort","hi":"sedan comfort"}',
+      'waiting_free_mins' => 10,
+      'waiting_min_charge' => 5.0,
+      'deleted_at' => NULL,
+      'status' => 1,
+      'created_at' => '2021-08-12 00:26:21',
+      'updated_at' => '2021-08-24 23:51:00',
+      'marker' => NULL,
+    ),
+     'changes' => 
+    array (
+    ),
+     'casts' => 
+    array (
+      'deleted_at' => 'datetime',
+    ),
+     'classCastCache' => 
+    array (
+    ),
+     'dates' => 
+    array (
+    ),
+     'dateFormat' => NULL,
+     'appends' => 
+    array (
+    ),
+     'dispatchesEvents' => 
+    array (
+    ),
+     'observables' => 
+    array (
+    ),
+     'relations' => 
+    array (
+    ),
+     'touches' => 
+    array (
+    ),
+     'timestamps' => true,
+     'hidden' => 
+    array (
+    ),
+     'visible' => 
+    array (
+    ),
+     'fillable' => 
+    array (
+    ),
+     'translationLocale' => NULL,
+     'forceDeleting' => false,
+  )),
+)  
+[2021-09-01 17:38:13] local.ALERT: 010  
+[2021-09-01 17:38:13] local.ALERT: here  
