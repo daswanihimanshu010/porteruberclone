@@ -12,7 +12,7 @@
   'select-location' => 'App\\Http\\Livewire\\SelectLocation',
   'service-geo-fence' => 'App\\Http\\Livewire\\ServiceGeoFence',
   'service-rental' => 'App\\Http\\Livewire\\ServiceRental',
-  'service-type-peak-hour' => 'App\\Http\\Livewire\\ServiceTypePeakHour',
+  'serviceTypePeakHour' => 'App\\Http\\Livewire\\ServiceTypePeakHour',
   'setting-toggle' => 'App\\Http\\Livewire\\SettingToggle',
   'single-service-rental' => 'App\\Http\\Livewire\\SingleServiceRental',
   'user-custom-push' => 'App\\Http\\Livewire\\UserCustomPush',
