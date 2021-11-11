@@ -21,10 +21,8 @@ $editing = isset($serviceType);
     <x-inputs.select name="unit" label="{{ __('crud.inputs.unit') }}">
         @foreach ($units as $key => $value)
             <option
-                    {{ old('unit', ($editing && $serviceType->unit === $value->id ? 'selected' : ''))}}
-        {{$serviceType->unit === $value->id ? 'selected' : ''}}
-                    value="{{$value->id}}" label="{{$value->name}}"></option>
-
+                    @if($editing && $serviceType->unit == $value->id) selected @endif
+                    value="{{$value->id}}" label="{{$value->name}}" key="{{$key}}"></option>
         @endforeach
     </x-inputs.select>
 
