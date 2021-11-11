@@ -5,7 +5,7 @@
             @php
                 $key = $serviceType->id."_".$ph->id;
             @endphp
-            <livewire:service-type-peak-hour :ph="$ph" :key="$key" :serviceType="$serviceType">
+            <livewire:serviceTypePeakHour :ph="$ph" :key="$key" :serviceType="$serviceType">
 
             @if (!$loop->last)
                 <hr class="w-full my-4 border-gray-200 dark:border-gray-600" />
